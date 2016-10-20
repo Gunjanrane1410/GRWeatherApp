@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BCAD23D1DB79B060041561D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCAD23C1DB79B060041561D /* main.m */; };
+		6BCAD2401DB79B060041561D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCAD23F1DB79B060041561D /* AppDelegate.m */; };
+		6BCAD2431DB79B060041561D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCAD2421DB79B060041561D /* ViewController.m */; };
+		6BCAD2461DB79B060041561D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BCAD2441DB79B060041561D /* Main.storyboard */; };
+		6BCAD2481DB79B070041561D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BCAD2471DB79B070041561D /* Assets.xcassets */; };
+		6BCAD24B1DB79B070041561D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BCAD2491DB79B070041561D /* LaunchScreen.storyboard */; };
+		6BCAD2541DB7A5400041561D /* customTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCAD2531DB7A5400041561D /* customTableViewCell.m */; };
+		6BCAD2561DB7A81B0041561D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCAD2551DB7A81B0041561D /* CoreLocation.framework */; };
+		6BCAD2581DB7A8220041561D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCAD2571DB7A8220041561D /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6BCAD2381DB79B060041561D /* GRWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GRWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BCAD23C1DB79B060041561D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BCAD23E1DB79B060041561D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BCAD23F1DB79B060041561D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BCAD2411DB79B060041561D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6BCAD2421DB79B060041561D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6BCAD2451DB79B060041561D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BCAD2471DB79B070041561D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BCAD24A1DB79B070041561D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BCAD24C1DB79B070041561D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BCAD2521DB7A5400041561D /* customTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customTableViewCell.h; sourceTree = "<group>"; };
+		6BCAD2531DB7A5400041561D /* customTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customTableViewCell.m; sourceTree = "<group>"; };
+		6BCAD2551DB7A81B0041561D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6BCAD2571DB7A8220041561D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BCAD2351DB79B060041561D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCAD2581DB7A8220041561D /* MapKit.framework in Frameworks */,
+				6BCAD2561DB7A81B0041561D /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BCAD22F1DB79B060041561D = {
+			isa = PBXGroup;
+			children = (
+				6BCAD2571DB7A8220041561D /* MapKit.framework */,
+				6BCAD2551DB7A81B0041561D /* CoreLocation.framework */,
+				6BCAD23A1DB79B060041561D /* GRWeatherApp */,
+				6BCAD2391DB79B060041561D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BCAD2391DB79B060041561D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BCAD2381DB79B060041561D /* GRWeatherApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BCAD23A1DB79B060041561D /* GRWeatherApp */ = {
+			isa = PBXGroup;
+			children = (
+				6BCAD23E1DB79B060041561D /* AppDelegate.h */,
+				6BCAD23F1DB79B060041561D /* AppDelegate.m */,
+				6BCAD2411DB79B060041561D /* ViewController.h */,
+				6BCAD2421DB79B060041561D /* ViewController.m */,
+				6BCAD2521DB7A5400041561D /* customTableViewCell.h */,
+				6BCAD2531DB7A5400041561D /* customTableViewCell.m */,
+				6BCAD2441DB79B060041561D /* Main.storyboard */,
+				6BCAD2471DB79B070041561D /* Assets.xcassets */,
+				6BCAD2491DB79B070041561D /* LaunchScreen.storyboard */,
+				6BCAD24C1DB79B070041561D /* Info.plist */,
+				6BCAD23B1DB79B060041561D /* Supporting Files */,
+			);
+			path = GRWeatherApp;
+			sourceTree = "<group>";
+		};
+		6BCAD23B1DB79B060041561D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BCAD23C1DB79B060041561D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BCAD2371DB79B060041561D /* GRWeatherApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BCAD24F1DB79B070041561D /* Build configuration list for PBXNativeTarget "GRWeatherApp" */;
+			buildPhases = (
+				6BCAD2341DB79B060041561D /* Sources */,
+				6BCAD2351DB79B060041561D /* Frameworks */,
+				6BCAD2361DB79B060041561D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GRWeatherApp;
+			productName = GRWeatherApp;
+			productReference = 6BCAD2381DB79B060041561D /* GRWeatherApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BCAD2301DB79B060041561D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Rane Gunjan";
+				TargetAttributes = {
+					6BCAD2371DB79B060041561D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6BCAD2331DB79B060041561D /* Build configuration list for PBXProject "GRWeatherApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BCAD22F1DB79B060041561D;
+			productRefGroup = 6BCAD2391DB79B060041561D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BCAD2371DB79B060041561D /* GRWeatherApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BCAD2361DB79B060041561D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCAD24B1DB79B070041561D /* LaunchScreen.storyboard in Resources */,
+				6BCAD2481DB79B070041561D /* Assets.xcassets in Resources */,
+				6BCAD2461DB79B060041561D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BCAD2341DB79B060041561D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCAD2431DB79B060041561D /* ViewController.m in Sources */,
+				6BCAD2401DB79B060041561D /* AppDelegate.m in Sources */,
+				6BCAD2541DB7A5400041561D /* customTableViewCell.m in Sources */,
+				6BCAD23D1DB79B060041561D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BCAD2441DB79B060041561D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BCAD2451DB79B060041561D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BCAD2491DB79B070041561D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BCAD24A1DB79B070041561D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BCAD24D1DB79B070041561D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BCAD24E1DB79B070041561D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BCAD2501DB79B070041561D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GRWeatherApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.felix.GRWeatherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BCAD2511DB79B070041561D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GRWeatherApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.felix.GRWeatherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BCAD2331DB79B060041561D /* Build configuration list for PBXProject "GRWeatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BCAD24D1DB79B070041561D /* Debug */,
+				6BCAD24E1DB79B070041561D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BCAD24F1DB79B070041561D /* Build configuration list for PBXNativeTarget "GRWeatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BCAD2501DB79B070041561D /* Debug */,
+				6BCAD2511DB79B070041561D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BCAD2301DB79B060041561D /* Project object */;
+}
